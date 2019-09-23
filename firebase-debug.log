@@ -1,0 +1,104 @@
+[debug] [2019-09-23T22:10:31.049Z] ----------------------------------------------------------------------
+[debug] [2019-09-23T22:10:31.058Z] Command:       /home/edgar/.nvm/versions/node/v8.16.1/bin/node /home/edgar/.nvm/versions/node/v8.16.1/bin/firebase init functions
+[debug] [2019-09-23T22:10:31.059Z] CLI Version:   7.3.0
+[debug] [2019-09-23T22:10:31.059Z] Platform:      linux
+[debug] [2019-09-23T22:10:31.059Z] Node Version:  v8.16.1
+[debug] [2019-09-23T22:10:31.059Z] Time:          Mon Sep 23 2019 17:10:31 GMT-0500 (CDT)
+[debug] [2019-09-23T22:10:31.060Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-09-23T22:10:31.079Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-09-23T22:10:31.079Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/edgar/Documentos/Practices/firebase-functions-random-user
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project.
+[debug] [2019-09-23T22:10:52.026Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-09-23T22:10:52.028Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-09-23T22:10:52.418Z] <<< HTTP RESPONSE 200
+[debug] [2019-09-23T22:10:52.434Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects  
+
+[debug] [2019-09-23T22:10:53.166Z] <<< HTTP RESPONSE 200
+[debug] [2019-09-23T22:10:53.175Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7345783483637032237  
+ 
+[debug] [2019-09-23T22:10:53.849Z] <<< HTTP RESPONSE 200
+[debug] [2019-09-23T22:10:54.352Z] [Project Creation Poller] Retrying task index 0
+[debug] [2019-09-23T22:10:54.353Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7345783483637032237  
+ 
+[debug] [2019-09-23T22:10:55.005Z] <<< HTTP RESPONSE 200
+[debug] [2019-09-23T22:10:56.007Z] [Project Creation Poller] Retrying task index 0
+[debug] [2019-09-23T22:10:56.009Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7345783483637032237  
+ 
+[debug] [2019-09-23T22:10:56.662Z] <<< HTTP RESPONSE 200
+[debug] [2019-09-23T22:10:58.663Z] [Project Creation Poller] Retrying task index 0
+[debug] [2019-09-23T22:10:58.665Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7345783483637032237  
+ 
+[debug] [2019-09-23T22:10:59.346Z] <<< HTTP RESPONSE 200
+[debug] [2019-09-23T22:10:59.353Z] >>> HTTP REQUEST POST https://firebase.googleapis.com/v1beta1/projects/ttcrew-examples:addFirebase  
+ 
+[debug] [2019-09-23T22:11:01.359Z] <<< HTTP RESPONSE 200
+[debug] [2019-09-23T22:11:01.362Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/operations/projects/Y2JiZjI2YTAtMzlkNi00ZmM0LWJlZDMtZDdlZTdlMzVjZGUx  
+ 
+[debug] [2019-09-23T22:11:01.984Z] <<< HTTP RESPONSE 200
+[debug] [2019-09-23T22:11:02.486Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2019-09-23T22:11:02.487Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/operations/projects/Y2JiZjI2YTAtMzlkNi00ZmM0LWJlZDMtZDdlZTdlMzVjZGUx  
+ 
+[debug] [2019-09-23T22:11:03.024Z] <<< HTTP RESPONSE 200
+[debug] [2019-09-23T22:11:04.025Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2019-09-23T22:11:04.026Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/operations/projects/Y2JiZjI2YTAtMzlkNi00ZmM0LWJlZDMtZDdlZTdlMzVjZGUx  
+ 
+[debug] [2019-09-23T22:11:04.523Z] <<< HTTP RESPONSE 200
+[debug] [2019-09-23T22:11:06.524Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2019-09-23T22:11:06.525Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/operations/projects/Y2JiZjI2YTAtMzlkNi00ZmM0LWJlZDMtZDdlZTdlMzVjZGUx  
+ 
+[debug] [2019-09-23T22:11:07.040Z] <<< HTTP RESPONSE 200
+[debug] [2019-09-23T22:11:11.040Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2019-09-23T22:11:11.042Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/operations/projects/Y2JiZjI2YTAtMzlkNi00ZmM0LWJlZDMtZDdlZTdlMzVjZGUx  
+ 
+[debug] [2019-09-23T22:11:11.701Z] <<< HTTP RESPONSE 200
+[info] 
+[info] 🎉🎉🎉 Your Firebase project is ready! 🎉🎉🎉
+[info] 
+[info] Project information:
+[info]    - Project ID: ttcrew-examples
+[info]    - Project Name: ttcrew-examples
+[info] 
+[info] Firebase console is available at
+[info] https://console.firebase.google.com/project/ttcrew-examples/overview
+[info] i  Using project ttcrew-examples (ttcrew-examples)
+[info] 
+=== Functions Setup
+[info] 
+[info] A functions directory will be created in your project with a Node.js
+[info] package pre-configured. Functions can be deployed with firebase deploy.
+[info] 
+[debug] [2019-09-23T22:11:11.723Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-09-23T22:11:11.723Z] > authorizing via signed-in user
+[debug] [2019-09-23T22:11:11.726Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/ttcrew-examples  
+ 
+[debug] [2019-09-23T22:11:12.102Z] <<< HTTP RESPONSE 200
+[debug] [2019-09-23T22:11:12.118Z] >>> HTTP REQUEST POST https://serviceusage.googleapis.com/v1/projects/ttcrew-examples/services/cloudfunctions.googleapis.com:enable  
+ 
+[debug] [2019-09-23T22:11:12.119Z] >>> HTTP REQUEST POST https://serviceusage.googleapis.com/v1/projects/ttcrew-examples/services/runtimeconfig.googleapis.com:enable  
+ 
+[debug] [2019-09-23T22:11:12.938Z] <<< HTTP RESPONSE 200
+[debug] [2019-09-23T22:11:13.021Z] <<< HTTP RESPONSE 200
+[info] ✔  Wrote functions/package.json
+[info] ✔  Wrote functions/.eslintrc.json
+[info] ✔  Wrote functions/index.js
+[info] ✔  Wrote functions/.gitignore
